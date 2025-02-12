@@ -10,10 +10,12 @@
     "test": "jest"
   },
   "dependencies": {
+    "@pinia/nuxt": "0.10.0",
     "@primevue/nuxt-module": "^4.2.5",
     "@primevue/themes": "^4.2.5",
     "core-js": "^3.40.0",
     "nuxt": "^3.15.4",
+    "pinia": "^3.0.0",
     "primeflex": "^3.3.1",
     "primeicons": "^7.0.0",
     "primevue": "^4.2.5",
@@ -31,5 +33,6 @@
     "jest-environment-jsdom": "^29.7.0",
     "ts-jest": "^29.2.5",
     "vue-jest": "^3.0.7"
-  }
+  },
+  "packageManager": "yarn@1.22.19+sha1.4ba7fc5c6e704fce2066ecbfb0b0d8976fe62447"
 }

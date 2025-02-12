@@ -9,13 +9,16 @@ export default defineNuxtConfig({
   components: true,
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ["@primevue/nuxt-module"],
+  modules: ["@primevue/nuxt-module", "@pinia/nuxt"],
   primevue: {
     options: {
       theme: {
         preset: Aura,
       },
     },
+  },
+  pinia: {
+    storesDirs: ["./stores/**"],
   },
 
   compatibilityDate: "2025-02-12",
